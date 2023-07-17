@@ -1,0 +1,63 @@
+.header {
+text-decoration-color: aliceblue;
+display: flex;
+background-color: aqua;
+flex: 1;
+min-width: 576px;
+height: 576px;
+justify-content: center;
+line-height: 13;
+font-size: 22px;
+}
+.container{
+height: 400px;
+min-width: 576px;
+margin: 0% auto;
+flex: 1;
+padding: 40px;
+text-align: center;
+background-color: black;
+}
+.row {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+    
+
+}
+
+.column1{
+width: 200px;
+flex: 1;
+background-color: blue;
+height: 40px;
+}
+.column2{
+    width: 200px;
+    flex: 1;
+    background-color: coral;
+}
+.column3{
+    width: 200px;
+    flex: 1;
+    background-color: aqua;
+}
+
+
+
+.row2{
+display: flex;
+gap: 40px;
+margin-bottom: 40px;
+
+
+}
+.column{
+    width: 200px;
+   background-color: rgb(209, 7, 7);
+   height:300px;
+    flex: 1;
+}
+
+
+    
